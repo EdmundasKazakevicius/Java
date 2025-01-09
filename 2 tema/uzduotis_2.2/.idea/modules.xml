@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Distance/Distance.iml" filepath="$PROJECT_DIR$/Distance/Distance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MilesToKilometers/MilesToKilometers.iml" filepath="$PROJECT_DIR$/MilesToKilometers/MilesToKilometers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberOfYears/NumberOfYears.iml" filepath="$PROJECT_DIR$/NumberOfYears/NumberOfYears.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uzduotis_2.2.iml" filepath="$PROJECT_DIR$/.idea/uzduotis_2.2.iml" />
+    </modules>
+  </component>
+</project>
