@@ -8,10 +8,10 @@ public class NumberOfYears {
 
         System.out.println("Enter the number of minutes:");
         int numberMinutes = Integer.parseInt(scanner.nextLine());
-        int numberYears = (int) (numberMinutes/60.0/24.0/365);
-        int numberRestMinutes = (numberMinutes-numberYears*365*24*60)/60/24;
+        int numberYears = (int) (numberMinutes / 60.0 / 24.0 / 365);
+        int numberRestMinutes = (numberMinutes - numberYears * 365 * 24 * 60) / 60 / 24;
 
-        System.out.println(numberMinutes + " is aproximatelly " +numberYears+" and " + numberRestMinutes + " days");
+        System.out.println(numberMinutes + " is aproximatelly " + numberYears + " years and " + numberRestMinutes + " days");
 
     }
 }
