@@ -42,13 +42,19 @@ public class ArraysTask {
     //Jei k yra už masyvo ribų, metodas grąžina null (teisingiau būtų mesti exception, bet dar nesimokėm)
     public static int[] removeElementAndReturnNewArray(int[] arr, int k) {
 
-        System.out.println(Arrays.toString(arr));
-        System.out.println(k);
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(k);
 
-//        if ((arr.length <= 1) || (k < 0) || (k >= arr.length - 1)) return null;
-        if ((arr.length <= 1) || (k < 0) || (k > (arr.length - 1))) {
-            System.out.println(arr.length);
-            System.out.println(k);
+//        if ((arr.length <= 1) || (k < 0) || (k > (arr.length - 1)))
+
+        if (arr.length == 1) {
+            int[] arr1 = new int[0];
+            return arr1;
+        }
+
+        if ((k < 0) || (k > (arr.length - 1))) {
+//            System.out.println(arr.length);
+//            System.out.println(k);
             return null;
         }
 
@@ -58,7 +64,7 @@ public class ArraysTask {
 
         for (int i = k + 1; i < arr.length; i++) arr1[i - 1] = arr[i];
 
-        System.out.println(Arrays.toString(arr1));
+//        System.out.println(Arrays.toString(arr1));
         return arr1;
     }
 
